@@ -64,3 +64,21 @@ simply holding your tokens, and features an innovative hold-farming reward struc
 pool-farming rewards. The idea behind this function is to eliminate token dependencies that have created problems in the
 past, including, but not limited to:
 </p>
+<p>Earlier models of decentralized finance tokens such as pool farming are costly and rely on user action to manually
+compound rewards. As a solution, we propose the utilisation of a compounding reward structure that requires no additional
+fees in a smart contract function, also known as token reflections. To achieve this, reflection must happen without cost or
+impact to the user. Considering the static rate of reflection set at 5%, the volume of market activity will directly impact the
+quantity of token reflection based upon the percentage of tokens held by the user relative to the overall supply. With the
+“_excludeFromReward” function enabled for individual addresses, accounts such as exchanges, hot wallets, dapps, etc.
+can be excluded from token reflection, thus granting more rewards to individual holders.</p>
+<h6>4. Depreciating Supply & Burn Address
+</h6>
+
+<p>In a decentralized smart chain environment, contract functions can be utilized to achieve token scarcity. To do this,
+we propose also distributing rewards to the burn address, which is publicly verifiable for all participants to see. We can then
+track the depreciating supply in real-time for added transparency. In our effort to establish a baseline token burn rate, we find
+that these values are dependent on three important factors: reflection rate, token quantity, and market volume. The rate of
+reflection rewards is proportional to the total supply in each holder’s wallet address. It is important to note that there are two
+particular variables which will affect our calculations: the increasing scarcity of tokens and the quantity of tokens absorbed
+into the burn address. It can be reasonably understood that these features will have synergistic effects that can stabilize the
+burn rate into the future.</p>
